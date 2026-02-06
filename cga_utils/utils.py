@@ -1,4 +1,4 @@
-from base_alg import *
+from cga_utils.base_alg import *
 import math
 
 dist   = lambda x,y: (2*(x.rc(y)).norm)**0.5                                        # The distance between two unnormalized points

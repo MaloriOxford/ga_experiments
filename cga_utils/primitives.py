@@ -1,4 +1,4 @@
-from base_alg import *
+from cga_utils.base_alg import *
 
 up = lambda x: no + x + 0.5 * x * x * ni                                    # Up project a Euclidean vector to a homogeneous point
 point  = lambda x, y, z: no + x*e1 + y*e2 + z*e3 + 0.5*(x*x+y*y+z*z)*ni     # Same as up but with separate arguments
